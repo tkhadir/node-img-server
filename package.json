@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "serve": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "upload": "node upload.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,9 @@
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "formidable": "^1.2.2",
+    "fs": "0.0.1-security",
     "http": "0.0.1-security",
     "path": "^0.12.7",
     "rxjs": "^6.6.3"
